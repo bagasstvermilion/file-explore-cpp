@@ -107,7 +107,7 @@ int main() {
                     if (filesystem::exists(subFolder) && filesystem::is_directory(subFolder)) {
                         filesystem::current_path(subFolder);
                     } else {
-                        cout << "subfolder tidak ditemukan" << endl;
+                        cout << "subfolder tidak ditemukan." << endl;
                     }
                 }
             }
